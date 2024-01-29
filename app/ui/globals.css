@@ -1,4 +1,4 @@
-:root{
+/* :root{
     --bg: #151c2c;
     --bgSoft: #182237;
     --text: white;
@@ -19,4 +19,105 @@ body{
 a{
     color: inherit;
     text-decoration: none;
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.jss32{
+    width: 100%;
+    height: 40px;
+    background: #E9EDF2;
+    box-shadow: inset 0 -1px 0 0 #DBE1E8;
+    user-select: none;
+}
+
+.jss45{
+    width: fit-content;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+    justify-content: space-between;
+}
+
+.jss51{
+    width: 30px;
+    height: 30px;
+}
+
+.jss82{
+    color: #181C2F;
+    width: fit-content;
+    font-size: 12px;
+    text-align: left;
+}
+
+.jss89{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    text-align: center;
+}
+
+.jss33{
+    top:40px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: calc(100% - 40px);
+    position: absolute;
+}
+
+.jss165{
+    top: 0px;
+    left: 48px;
+    right: 0;
+    bottom: 30px;
+    z-index: 1;
+    position: absolute;
+    min-width: 1000px;
+    background-color: #DBE1E8;
+}
+
+.jss17837{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 4px;
+    position: relative;
+    background: #DBE1E8;
+    justify-content: space-between;
+}
+
+.jss370{
+    left: 0;
+    width: 48px;
+    height: 100%;
+    z-index: 3;
+    position: absolute;
+    background-color: #0F1527;
+}
+
+.jss468{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    display: flex;
+    z-index: 2;
+    overflow: hidden;
+    position: absolute;
+    background: #E9EDF2;
+    padding-left: 50px;
+    justify-content: flex-end;
+}
+
+.jss371{
+    margin-top: 36px;
 }

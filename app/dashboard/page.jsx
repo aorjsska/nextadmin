@@ -1,27 +1,13 @@
-import Card from "../ui/dashboard/card/card";
-import Chart from "../ui/dashboard/chart/chart";
-import styles from "../ui/dashboard/dashboard.module.css";
-import Rightbar from "../ui/dashboard/rightbar/rightbar";
-import Transactions from "../ui/dashboard/transactions/transactions";
+import Dashboard from "./page.client";
 
-
-const Dashboard = () => {
+const DashboardServer = () => {
     return (
-      <div className={styles.wrapper}>
-        <div className={styles.main}>
-          <div className={styles.cards}>
-            <Card/>
-            <Card/>
-            <Card/>
-          </div>
-          <Transactions/>
-          <Chart/>
+      <body>
+        <div class="jss32">
         </div>
-        <div className={styles.side}>
-          <Rightbar/>
-        </div>
-      </div>
+      </body>
+      
     )
   }
   
-  export default Dashboard
+  export default DashboardServer;
