@@ -92,6 +92,11 @@ const Homepage = () => {
                       </div>
                     </div>
                   </div>
+                  <div
+                    id="collapse button"
+                    className="jss281 jss282"
+                  >
+                  </div>
                 </div>
                 <div
                   id="selected_menuItem_layout"
